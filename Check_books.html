@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 32px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 32px;
+        }
+        .book-list {
+            list-style: none;
+            padding: 0;
+        }
+        .book-item {
+            border-bottom: 1px solid #e0e0e0;
+            padding: 20px 0;
+        }
+        .book-item:last-child {
+            border-bottom: none;
+        }
+        .book-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2a4d69;
+        }
+        .book-author {
+            color: #4b86b4;
+            font-style: italic;
+            margin-bottom: 6px;
+        }
+        .book-content {
+            color: #555;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Book List</h1>
+        <ul class="book-list">
+            <li class="book-item">
+                <div class="book-title">To Kill a Mockingbird</div>
+                <div class="book-author">by Harper Lee</div>
+                <div class="book-content">
+                    A novel about the serious issues of rape and racial inequality, told through the eyes of young Scout Finch in the Deep South.
+                </div>
+            </li>
+            <li class="book-item">
+                <div class="book-title">1984</div>
+                <div class="book-author">by George Orwell</div>
+                <div class="book-content">
+                    A dystopian story set in a totalitarian society under constant surveillance, exploring themes of truth and freedom.
+                </div>
+            </li>
+            <li class="book-item">
+                <div class="book-title">Pride and Prejudice</div>
+                <div class="book-author">by Jane Austen</div>
+                <div class="book-content">
+                    A classic romantic novel that delves into issues of class, marriage, and morality in 19th-century England.
+                </div>
+            </li>
+            <li class="book-item">
+                <div class="book-title">The Great Gatsby</div>
+                <div class="book-author">by F. Scott Fitzgerald</div>
+                <div class="book-content">
+                    A critique of the American Dream, set in the Roaring Twenties, centered on the mysterious millionaire Jay Gatsby.
+                </div>
+            </li>
+            <li class="book-item">
+                <div class="book-title">The Hobbit</div>
+                <div class="book-author">by J.R.R. Tolkien</div>
+                <div class="book-content">
+                    A fantasy adventure following Bilbo Baggins as he embarks on a quest to reclaim a lost dwarf kingdom.
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
